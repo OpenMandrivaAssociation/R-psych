@@ -9,9 +9,11 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-MASS R-GPArotation R-graph R-Rgraphviz R-mvtnorm R-polycor R-sem R-Rcsdp R-lavaan 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
-BuildRequires:    R-MASS R-GPArotation R-graph R-Rgraphviz R-mvtnorm R-polycor R-sem R-Rcsdp R-lavaan 
+Requires:         R-MASS R-GPArotation R-graph R-Rgraphviz R-mvtnorm
+Requires:         R-polycor R-sem R-Rcsdp R-lavaan
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-MASS R-GPArotation R-graph R-Rgraphviz R-mvtnorm
+BuildRequires:    R-polycor R-sem R-Rcsdp R-lavaan
 
 %description
 A number of routines for personality, psychometrics and experimental
