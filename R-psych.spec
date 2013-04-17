@@ -15,6 +15,8 @@ BuildRequires:    R-devel Rmath-devel texlive-collection-latex
 BuildRequires:    R-MASS R-GPArotation R-graph R-Rgraphviz R-mvtnorm
 BuildRequires:    R-polycor R-sem R-Rcsdp R-lavaan
 
+%define debug_package %{nil}
+
 %description
 A number of routines for personality, psychometrics and experimental
 psychology.  Functions are primarily for scale construction using factor
