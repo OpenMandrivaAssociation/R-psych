@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.2.1
-Release:          1
+Release:          2
 Summary:          Procedures for Psychological, Psychometric, and Personality Research
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
