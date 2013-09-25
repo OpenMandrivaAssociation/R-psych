@@ -2,18 +2,16 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.2.1
-Release:          2
+Version:          1.3.2
+Release:          1
 Summary:          Procedures for Psychological, Psychometric, and Personality Research
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
-Requires:         R-MASS R-GPArotation R-graph R-Rgraphviz R-mvtnorm
-Requires:         R-polycor R-sem R-Rcsdp R-lavaan
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-MASS R-GPArotation R-graph R-Rgraphviz R-mvtnorm
-BuildRequires:    R-polycor R-sem R-Rcsdp R-lavaan
+Source0:          http://cran.r-project.org/src/contrib/psych_1.3.2.tar.gz
+Requires:         R-MASS R-GPArotation R-graph R-Rgraphviz R-mvtnorm R-polycor R-sem R-Rcsdp R-lavaan 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
+BuildRequires:    R-MASS R-GPArotation R-graph R-Rgraphviz R-mvtnorm R-polycor R-sem R-Rcsdp R-lavaan 
 
 %define debug_package %{nil}
 
