@@ -7,7 +7,7 @@ Release:          1
 Summary:          Procedures for Psychological, Psychometric, and Personality Research
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/psych_1.3.2.tar.gz
 Requires:         R-MASS R-GPArotation R-graph R-Rgraphviz R-mvtnorm R-polycor R-sem R-Rcsdp R-lavaan 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
